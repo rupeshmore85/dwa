@@ -1,8 +1,7 @@
 <?php
 
 # Database Class
-class DB 
-{
+class DB {
 
 	# instance connection
 	public $connection;
