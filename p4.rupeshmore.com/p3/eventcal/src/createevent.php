@@ -19,10 +19,18 @@ class createevent
 	function return_response()
 	{
 		$db = new db(EZSQL_DB_USER, EZSQL_DB_PASSWORD, EZSQL_DB_NAME, EZSQL_DB_HOST);
+		//$queryVars = sanitize($queryVars);
 		$sTimeStr=$this->queryVars['st'];
 		$eTimeStr=$this->queryVars['et'];
 		$evName=$this->queryVars['eventName'];
+		
+		// Sanitize event name
+		$evName=filter_var($evName,FILTER_SANITIZE_SPECIAL_CHARS, FILTER_FLAG_STRIP_LOW);
 		$desc=$this->queryVars['desc'];
+		
+		// Sanitize event description
+
+		$desc=filter_var($desc,FILTER_SANITIZE_SPECIAL_CHARS, FILTER_FLAG_STRIP_LOW);
 		$allDayIndicator=$this->queryVars['allDay'];
 		$groupId=$this->queryVars['groupId'];
 		 

@@ -24,7 +24,16 @@ class updateeventfull
 		$sTime=$this->queryVars['st'];
 		$eTime=$this->queryVars['et'];
 		$evName=$this->queryVars['eventName'];
+		
+		// Sanitize event name
+		$evName=filter_var($evName,FILTER_SANITIZE_SPECIAL_CHARS, FILTER_FLAG_STRIP_LOW);
+
 		$desc=$this->queryVars['desc'];
+		
+		// Sanitize event description
+
+		$desc=filter_var($desc,FILTER_SANITIZE_SPECIAL_CHARS, FILTER_FLAG_STRIP_LOW);	
+			
 		$allDayIndicator=$this->queryVars['allDay'];
 		$eventId=$this->queryVars['eventId'];
 		$groupId=$this->queryVars['groupId'];

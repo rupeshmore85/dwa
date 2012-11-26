@@ -3,15 +3,9 @@ insert into events
 VALUES ('New Year''s Day', 'Celebrates beginning of the Gregorian calendar year. Festivities include counting down to midnight (12:00 AM) on the preceding night, New Year''s Eve, often with fireworks display and party. Traditional end of Christmas and holiday season', 1, 1,  '2012-01-01 00:00:00', '2012-01-01 00:00:00','Y');
 
 
-
 insert into events
 (event_name,event_description, calendar_id, all_day, start_time, end_time, holiday_i) 
 VALUES ('Birthday of Martin Luther King, Jr.', 'Honors Martin Luther King, Jr., Civil Rights leader, who was actually born on January 15, 1929; combined with other holidays in several states', 3, 1,  '2012-01-16 00:00:00', '2012-01-16 00:00:00','Y');
-
-
-insert into events
-(event_name,event_description, calendar_id, all_day, start_time, end_time, holiday_i) 
-VALUES ('Inauguration Day', 'Inauguration of President of the United States and other elected federal officials.', 3, 1,  '2012-01-21 00:00:00', '2012-01-21 00:00:00','Y');
 
 
 insert into events
