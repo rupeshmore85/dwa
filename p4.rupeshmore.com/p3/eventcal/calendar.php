@@ -19,7 +19,7 @@
     <body>
    	    <div id="center"><h1>Project 3 - Event Calendar</h1></div>
    	    <br>
-   	    <div id="center1"><h2><a id="ssoverlay" href="http://p4.rupeshmore.com/index.html"  target="_blank"> Description </a></h2></div>
+   	    <div id="center1"><h2><a id="ssoverlay" href="http://p4.rupeshmore.com"  target="_blank"> Description </a></h2></div>
         <div id="calendarContainer">
         </div>  
     </body> 
