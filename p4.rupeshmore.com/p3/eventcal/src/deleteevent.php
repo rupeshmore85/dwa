@@ -20,7 +20,7 @@ class deleteevent
 	{
 		$db = new db(EZSQL_DB_USER, EZSQL_DB_PASSWORD, EZSQL_DB_NAME, EZSQL_DB_HOST);
 		  
-		 $eventId=$this->queryVars['eventId']; 
+		$eventId=$this->queryVars['eventId']; 
 		$input=array();
 		
 		$input['name']=$name; 
