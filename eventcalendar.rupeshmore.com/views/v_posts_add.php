@@ -14,7 +14,12 @@
 	<br></br>
 	<input type='submit'>
 	
-	<br><br><button> <a href='/users/profile'> Homepage </a></button>
+</form>
+
+<form action='/users/profile' >
+
+	<br>
+	<button> Homepage </button>
 	
 </form>
 

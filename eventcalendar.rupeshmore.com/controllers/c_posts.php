@@ -154,13 +154,11 @@ public function p_add()
 	//echo $_POST;
 	if ($_POST['content']=="")
 	{
-?>
- <!-- Javascript alert message and direct to add valid post again -->
-	<script language="javascript" type="text/javascript">
-		alert('Post cannot be blank');
-		window.location = '/posts/add';
-	</script>
-<?
+
+		echo "<script type='text/javascript'>alert('Post cannot be blank'); window.location.href='/posts/add';</script>";
+		//echo "Post cannot be blank";
+		//Router::redirect("/posts/add");
+
 	}
 	else
 	{
