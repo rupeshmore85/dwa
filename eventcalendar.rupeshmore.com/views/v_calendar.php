@@ -17,7 +17,8 @@
     </head>
 
     <body>
-   	    <div id="center"><h1> Event Calendar</h1></div>
+   	    <div id="center"><h1> <a href='/calendar'> Event Calendar </a> </h1></div>
+   	    <center><h2> <a href='/users/profile'> Home Page </a> </h2></center>
         <div id="calendarContainer">
         </div>  
     </body> 
