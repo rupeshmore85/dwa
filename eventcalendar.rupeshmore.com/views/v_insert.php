@@ -1,6 +1,6 @@
 <?php
 
- $con = mysql_connect("rupeshmo_p2_rupeshmore_com","rupeshmo_admin","Password_test1@");
+ $con = mysql_connect("localhost","rupeshmo_admin","Password_test1@");
  
  if (!$con) 
  		{

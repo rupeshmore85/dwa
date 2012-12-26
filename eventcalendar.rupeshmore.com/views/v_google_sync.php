@@ -130,7 +130,7 @@
 								
 				                // Ajax call to post the values in table 
 				                
-    							$.post("http://localhost/views/v_insert.php", {title: title,subtitle: subtitle, all_day: all_day, startTimeAsDate: startTimeAsDate, endTimeAsDate: endTimeAsDate, event_type:event_type, user_id:user_id}, function(data){alert(data);});										
+    							$.post("http://eventcalendar.rupeshmore.com/views/v_insert.php", {title: title,subtitle: subtitle, all_day: all_day, startTimeAsDate: startTimeAsDate, endTimeAsDate: endTimeAsDate, event_type:event_type, user_id:user_id}, function(data){alert(data);});										
 								
 						/*		if (entry.gd$when[0] != null) {
 									startTime = entry.gd$when[0].startTime;
