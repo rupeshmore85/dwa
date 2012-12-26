@@ -11,14 +11,25 @@
         <script src="../js/basic.js">  </script> 
         <script src="../js/eventcal.support.js">  </script>
         <script src="../js/eventcal.default.template.js">  </script> 
-		<script type="text/javascript" src="../js/mybic.js"></script> 
+		<script type="text/javascript" src="../js/mybic.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/demo_1.css" />
         
         <title> Event Calendar </title> 
     </head>
 
     <body>
    	    <div id="center"><h1> <a href='/calendar'> Event Calendar </a> </h1></div>
+   	    <br>
    	    <center><h2> <a href='/users/profile'> Home Page </a> </h2></center>
+
+		<center><h2> <a href='/calendar/sync'> Google Calendar Sync </a> </h2></center>
+		<center><div> Google Calendar sync will import events from your Google calendar only when your calendar and your events are made public. </div></center>
+		
+   	<!--      <center><h2><div method="POST" action="/calendar/sync" autocomplete="on">
+             <input type="submit" value="Google Calendar Sync" /> 
+		  </div>
+		  </h2></center>
+    -->   	    
         <div id="calendarContainer">
         </div>  
     </body> 
