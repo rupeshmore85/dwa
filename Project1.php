@@ -4,6 +4,7 @@
     "HTML Tidy for Windows (vers 14 February 2006), see www.w3.org">
     <title>
       "Rupesh's Project 1 for Web development course"
+      "Test project"
     </title>
     <style type="text/css">
 body
